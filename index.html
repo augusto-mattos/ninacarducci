@@ -26,16 +26,31 @@
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
-		  "@type": "Photographer",
-		  "name": "Nina Carducci", 
-		  "address": {
-			"@type": "PostalAddress",
-			"addressLocality": "Bordeaux, France",
-			"postalCode": "33200",
-			"streetAddress": "68 avenue Alsace-Lorraine"
-		  },
-		  "openingHours": "Mo-Fr 10:00-19:00",
-		  "telephone": "05 56 67 78 89",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+          "description": "Photographe professionnel",
+          "address": {
+        	"@type": "PostalAddress",
+        	"streetAddress": "68 avenue Alsace-Lorraine",
+	        "addressLocality": "Bordeaux",
+		    "postalCode": "33200",
+	        "addressCountry": "FR"
+	      },
+		  "openingHoursSpecification": [
+			{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			}
+			],
+		  "telephone": "+33556677889",
 		  "url": "https://augusto-mattos.github.io/ninacarducci-optmisation/"
 		}
 	</script>
